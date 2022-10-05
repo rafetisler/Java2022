@@ -1,0 +1,15 @@
+import java.util.Iterator;
+
+public class sayiBulma {
+
+	public static void main(String[] args) {
+		
+		int[] sayilar= new int[] {1,2,3,4,9,5,8,7};
+		int  aranacak=5;
+		for(int i=sayilar;i==aranacak;i++) {
+			System.out.println("Aradýðýnýz sayý mevcut");
+		}
+	
+	}
+
+}

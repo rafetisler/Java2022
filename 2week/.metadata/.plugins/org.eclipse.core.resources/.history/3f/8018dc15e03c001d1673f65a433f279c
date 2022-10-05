@@ -1,0 +1,19 @@
+
+public class sesliHarfler {
+
+	public static void main(String[] args) {
+		char harf='A';
+		
+		switch (key) {
+		case value: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+		
+
+	}
+
+}
