@@ -6,6 +6,12 @@ import oopWithNlayereApp.dataAccess.ProductDao;
 import oopWithNlayereApp.entities.Product;
 
 public class ProductManager {
+    private  ProductDao productDao;
+
+    public ProductManager(ProductDao productDao) {
+        this.productDao = productDao;
+    }
+
     public  void add(Product product) throws Exception {
         //response request
         // İş Kurlları
@@ -13,7 +19,7 @@ public class ProductManager {
             throw new Exception("Ürün Fiyatı 10 dan Küçük Olamaz.");
         }
 
-        ProductDao productDao=new HibernateProductDao();
+        //ProductDao productDao=new HibernateProductDao();
         productDao.add(product);
 
     }
