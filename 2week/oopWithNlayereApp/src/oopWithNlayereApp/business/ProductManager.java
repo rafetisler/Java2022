@@ -13,12 +13,9 @@ public class ProductManager {
     private Logger[] loggers;
 
     public ProductManager(ProductDao productDao, Logger[] loggers) {
-
-    }
-
-    {
         this.productDao = productDao;
         this.loggers = loggers;
+
     }
 
     public void add(Product product) throws Exception {
