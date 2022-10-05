@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\java2022\Java2022\2week\oopWithNlayereApp\.metadata\.plugins\org.eclipse.jdt.core
